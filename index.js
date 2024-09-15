@@ -14,7 +14,7 @@ const app = express()
 
 app.use(cors({
     origin: ["https://hotel-booking-app-frontend-7kqp.onrender.com"],
-    methods: ["GET", "POST"],
+    methods: ["GET", "POST" , "PUT"],
     credentials: true
 }))
 
