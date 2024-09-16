@@ -13,7 +13,7 @@ dotenv.config()
 const app = express()
 
 app.use(cors({
-    origin: ["https://hotel-booking-app-frontend-1tld.onrender.com"],
+    origin: ["https://hotel-booking-app-frontend-syvc.onrender.com"],
     methods: ["GET", "POST" , "PUT"],
     credentials: true
 }))
